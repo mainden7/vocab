@@ -1,0 +1,78 @@
+{
+  "state": "journal2",
+  "examine": "exp",
+  "id": 465463,
+  "work": {
+    "store": "key",
+    "one_more_key": "one_more_val1",
+    "nested_key": {
+      "nested_lvl_2_key_1": 1,
+      "nested_lvl_2_key_2": 11.01,
+      "nested_lvl_2_key_3": [
+        {
+          "list0_key1": 0,
+          "list0_key2": 1
+        },
+        {
+          "list1_key1": 0,
+          "list1_key2": 1
+        }
+      ]
+
+    }
+  },
+  "problems": [
+    {
+      "Diabetes": [
+        {
+          "medications": [
+            {
+              "medicationsClasses": [
+                {
+                  "className": [
+                    {
+                      "associatedDrug": [
+                        {
+                          "name": "asprin",
+                          "dose": "",
+                          "strength": "500 mg"
+                        }
+                      ]
+                    }
+                  ],
+                  "className2": [
+                    {
+                      "associatedDrug": [
+                        {
+                          "name": "asprin",
+                          "dose": "",
+                          "strength": "500 mg"
+                        }
+                      ],
+                      "associatedDrug#2": [
+                        {
+                          "name": "somethingElse",
+                          "dose": "",
+                          "strength": "500 mg"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "labs": [
+            {
+              "missing_field": "missing_value",
+              "missing_field2": "missing_value2"
+            }
+          ]
+        }
+      ],
+      "Asthma": [
+        {}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "deployment": {
+    "files": {
+      "example-resource-file1": {
+        "sourceUrl": "url2",
+        "protocol": "https",
+        "compress": true,
+        "encoded": false
+      },
+      "images/example-resource-file2": {
+        "sourceUrl": "url2",
+        "protocol": "https",
+        "encoded": true,
+        "process": {
+          "example": "protected",
+          "custom": true
+        }
+      }
+    }
+  },
+  "id": "v1",
+  "handlers": [
+    {
+      "urlRegex": "/.*",
+      "script": {
+        "scriptPath": "new-example-python-app.py"
+      }
+    }
+  ],
+  "runtime": "python27",
+  "threadsafe": false,
+  "use": "yes"
+}

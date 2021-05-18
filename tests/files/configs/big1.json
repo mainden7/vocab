@@ -1,0 +1,83 @@
+{
+  "state": "journal",
+  "examine": "exp",
+  "id": 465464,
+  "work": {
+    "store": "key",
+    "one_more_key": "one_more_val",
+    "nested_key": {
+      "nested_lvl_2_key_1": 1,
+      "nested_lvl_2_key_2": 11.05,
+      "nested_lvl_2_key_3": [
+        {
+          "list0_key1": 1,
+          "list0_key2": 2
+        },
+        {
+          "list3_key1": 0,
+          "list3_key2": 1
+        }
+      ]
+    }
+  },
+  "problems": [
+    {
+      "Diabetes": [
+        {
+          "medications": [
+            {
+              "medicationsClasses": [
+                {
+                  "className": [
+                    {
+                      "associatedDrug": [
+                        {
+                          "name": "asprin",
+                          "dose": "",
+                          "strength": "500 mg"
+                        }
+                      ],
+                      "associatedDrug#2": [
+                        {
+                          "name": "somethingElse",
+                          "dose": "",
+                          "strength": "500 mg"
+                        }
+                      ]
+                    }
+                  ],
+                  "className2": [
+                    {
+                      "associatedDrug": [
+                        {
+                          "name": "asprin",
+                          "dose": "",
+                          "strength": "500 mg"
+                        }
+                      ],
+                      "associatedDrug#2": [
+                        {
+                          "name": "somethingElse",
+                          "dose": "",
+                          "strength": "500 mg"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "labs": [
+            {
+              "missing_field": "missing_value"
+            }
+          ]
+        }
+      ],
+      "Asthma": [
+        {}
+      ]
+    }
+  ]
+}

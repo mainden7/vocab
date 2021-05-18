@@ -1,0 +1,25 @@
+{
+  "deployment": {
+    "files": {
+      "example-resource-file1": {
+        "sourceUrl": "url1",
+        "protocol": "https"
+      },
+      "images/example-resource-file2": {
+        "sourceUrl": "url1",
+        "protocol": "https"
+      }
+    }
+  },
+  "id": "v1",
+  "handlers": [
+    {
+      "urlRegex": "/.*",
+      "script": {
+        "scriptPath": "example-python-app.py"
+      }
+    }
+  ],
+  "runtime": "python27",
+  "threadsafe": true
+}
